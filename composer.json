@@ -1,0 +1,24 @@
+{
+  "name": "unapi/def-common",
+  "description": "Unapi def services common classes",
+  "keywords": ["unapi", "guzzle", "promise", "def", "phone", "whois"],
+  "type": "library",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "psr/log": "^1.0",
+    "unapi/unapi": "^1.0.1"
+  },
+  "autoload" : {
+    "psr-4": {
+      "unapi\\def\\common\\": "src"
+    }
+  },
+  "suggest": {
+    "unapi/def-tele2": "Detect phone operator with https://tele2.ru"
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
