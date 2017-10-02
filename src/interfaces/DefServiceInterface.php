@@ -3,13 +3,13 @@
 namespace unapi\def\common\interfaces;
 
 use GuzzleHttp\Promise\PromiseInterface;
-use unapi\dto\PhoneDto;
+use unapi\dto\PhoneInterface;
 
 interface DefServiceInterface
 {
     /**
-     * @param PhoneDto $phone
+     * @param PhoneInterface $phone
      * @return PromiseInterface
      */
-    public function detectOperator(PhoneDto $phone): PromiseInterface;
+    public function detectOperator(PhoneInterface $phone): PromiseInterface;
 }
