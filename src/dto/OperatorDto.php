@@ -49,7 +49,7 @@ class OperatorDto implements OperatorInterface
 
     /**
      * @param array $data
-     * @return self
+     * @return OperatorDto
      */
     public static function toDto(array $data): DtoInterface
     {
