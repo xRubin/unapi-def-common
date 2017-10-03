@@ -2,6 +2,8 @@
 
 namespace unapi\def\common\dto;
 
+use unapi\interfaces\DtoInterface;
+
 class OperatorDto implements OperatorInterface
 {
     /** @var string */
