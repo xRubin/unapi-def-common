@@ -15,5 +15,4 @@ interface OperatorInterface extends DtoInterface
      * @return int
      */
     public function getMnc(): int;
-    
 }
