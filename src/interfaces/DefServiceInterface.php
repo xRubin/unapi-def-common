@@ -3,7 +3,7 @@
 namespace unapi\def\common\interfaces;
 
 use GuzzleHttp\Promise\PromiseInterface;
-use unapi\dto\PhoneInterface;
+use unapi\def\common\dto\PhoneInterface;
 
 interface DefServiceInterface
 {
